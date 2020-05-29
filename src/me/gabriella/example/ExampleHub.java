@@ -1,8 +1,7 @@
 package me.gabriella.example;
 
-import me.gabriella.example.examples.FizzBuzz;
-import me.gabriella.example.examples.SwitchCase;
 import me.gabriella.example.innerworkings.ExampleEnum;
+import me.gabriella.example.innerworkings.Utils;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -13,6 +12,8 @@ public class ExampleHub
     {
         try
         {
+            Utils.clearScreen();
+            System.out.println("Computing Examples v1.1 by Gabriella Hotten");
             boolean active = true;
             while (active)
             {
@@ -39,6 +40,7 @@ public class ExampleHub
                     continue;
                 }
 
+                Utils.clearScreen();
                 System.out.println("Now running: " + ee.getName());
                 System.out.println(ee.getDesc());
                 System.out.println(" ");

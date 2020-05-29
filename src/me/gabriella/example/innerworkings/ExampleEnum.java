@@ -1,12 +1,6 @@
 package me.gabriella.example.innerworkings;
 
-/*
-Hi there! Pls no stealing, unless you were given express
-permission to read this. if not, fuck off :)
-
-Copyright (c) IsGeorgeCurious 2020
-*/
-
+import me.gabriella.example.examples.BasicTimer;
 import me.gabriella.example.examples.FizzBuzz;
 import me.gabriella.example.examples.SwitchCase;
 
@@ -15,7 +9,8 @@ import java.lang.reflect.Method;
 public enum ExampleEnum
 {
     FIZZBUZZ("FizzBuzz", "FizzBuzz code test. Every multiple of 3 outputs \"Fizz\", every multiple of 5 outputs \"Buzz\".", FizzBuzz.class),
-    SWITCHCASE("SwitchCase", "An example of switching.", SwitchCase.class);
+    SWITCHCASE("SwitchCase", "An example of switching.", SwitchCase.class),
+    BASICTIMER("BasicTimer", "A basic timer that counts down in seconds.", BasicTimer.class);
 
     private String name;
     private String desc;
