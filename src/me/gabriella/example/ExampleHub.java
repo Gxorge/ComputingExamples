@@ -13,7 +13,7 @@ public class ExampleHub
         try
         {
             Utils.clearScreen();
-            System.out.println("Computing Examples v1.1 by Gabriella Hotten");
+            System.out.println("Computing Examples v1.2 by Gabriella Hotten");
             boolean active = true;
             while (active)
             {
